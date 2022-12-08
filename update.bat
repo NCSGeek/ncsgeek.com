@@ -1,3 +1,3 @@
 @echo off
-surge "C:\Program Files\Development\surge" ncsgeek.com
+surge %~dp0 ncsgeek.com
 pause>nul
